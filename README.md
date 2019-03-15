@@ -22,6 +22,8 @@ There are 6 color schemes available:
 
 ## Credits
 
+Based on [sharath Kumar] jekyll-themes (https://github.com/sharu725/online-cv)
+
 Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
 
 Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
