@@ -35,3 +35,4 @@ This project is licensed under the [MIT license](LICENSE.txt).
 
 ## TODO
 * Automate production to github-page (1)
+* Automate pdf on production (1)
