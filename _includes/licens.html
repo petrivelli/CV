@@ -1,0 +1,14 @@
+{% assign licens = site.data.data.sidebar.licens %}
+{% if licens %}
+<div class="licens-container container-block">
+  <h2 class="container-block-title">licens</h2>
+  <ul class="list-unstyled licens-list">
+    {%for level in licens %}
+      <li>
+        {{ level.idiom }}
+        <span class="lang-desc">({{ level.level }})</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div><!--//licens-->
+{% endif %}

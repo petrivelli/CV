@@ -1,0 +1,48 @@
+{% assign volunteering = site.data.data.volunteering %}
+{% if volunteering %}
+<section class="section volunteering-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa fa-hands-helping fa-stack-1x fa-inverse"></i>
+    </span>
+    Volunteering
+  </h2>
+
+  {% for volunteer in volunteering %}
+    <div class="item">
+      <div class="meta">
+        {% if volunteer.image %}
+          <img class="volunteer-img" src="{{site.baseurl}}/assets/images/{{volunteer.image}}" alt="profile picture" onload="if(!isMobile())this.parentNode.removeChild(this);"/>
+        {% endif %}
+        <div class="upper-row">
+          <h3 class="volunteer-title">{{ volunteer.name }}</h3>
+          <div class="time">{{ volunteer.time }}</div>
+        </div><!--//upper-row-->
+        {% if volunteer.image %}
+          <img class="volunteer-img" src="{{site.baseurl}}/assets/images/{{volunteer.image}}" alt="profile picture" onload="if(isMobile())this.parentNode.removeChild(this);"/>
+        {% endif %}
+        <div class="organization">{{ volunteer.organization }}</div>
+      </div><!--//meta-->
+
+      {% if volunteer.details %}
+        <div class="details">{{ volunteer.details | markdownify }}</div><!--//details-->
+      {% endif %}
+
+      <ul type="disc">
+        {%for column in volunteer.columns %}
+          <li><p>
+            {% if column.title %}<b>{{ column.title }}</b>{% endif %}
+            {% if column.title and column.item %}<b>:</b>{% endif %}
+            {{ column.item }}
+          </p></li>
+        {% endfor %}
+        <br/>
+      </ul>
+
+    </div><!--//item-->
+    {% endfor %}
+</section><!--//section-->
+{% endif %}
+
+

@@ -1,0 +1,46 @@
+{% assign other = site.data.data.other %}
+{% if other %}
+<section class="section other-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    Other Experiences
+  </h2>
+
+  {% for others in other %}
+    <div class="item">
+      <div class="meta">
+        {% if others.image %}
+          <img class="others-img" src="{{site.baseurl}}/assets/images/{{others.image}}" alt="profile picture" onload="if(!isMobile())this.parentNode.removeChild(this);"/>
+        {% endif %}
+        <div class="upper-row">
+          <h3 class="others-title">{{ others.name }}</h3>
+          <div class="time">{{ others.time }}</div>
+        </div><!--//upper-row-->
+        {% if others.image %}
+          <img class="others-img" src="{{site.baseurl}}/assets/images/{{others.image}}" alt="profile picture" onload="if(isMobile())this.parentNode.removeChild(this);"/>
+        {% endif %}
+        <div class="organization">{{ others.organization }}</div>
+      </div><!--//meta-->
+
+      {% if others.details %}
+        <div class="details">{{ others.details | markdownify }}</div><!--//details-->
+      {% endif %}
+
+      <ul type="disc">
+        {%for column in others.columns %}
+          <li><p>
+            {% if column.title %}<b>{{ column.title }}</b>{% endif %}
+            {% if column.title and column.item %}<b>:</b>{% endif %}
+            {{ column.item }}
+          </p></li>
+        {% endfor %}
+        <br/>
+      </ul>
+
+    </div><!--//item-->
+    {% endfor %}
+</section><!--//section-->
+{% endif %}

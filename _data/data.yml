@@ -1,0 +1,281 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output. 
+#
+
+sidebar:
+    education: False # set to False if you want education in main section instead of in sidebar
+    # Profile information
+    name: Kim Petrivelli Østergaard
+    tagline: My CV
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: Kim@Petrivelli.dk
+    phone: +45 60195316
+    website: #do not add http://
+    linkedin: kimpetrivelliostergaard 
+
+    languages:
+      - idiom: Dansk
+        level: Native
+      - idiom: Engelsk
+        level: Professional
+
+    licens:
+      - idiom: Kørekort
+        level: 'Kat B.'
+      - idiom: Certificat
+        level: 'Gaffeltruck B'
+
+    interests:
+      - item: webdesign
+      - item: Computere
+      - item: Gameing
+      - item: Frivillighed
+      
+
+    skills:
+      - item: HTML / CSS
+      - item: C#
+      - item: Shell script (Bash)
+      - item: PHP
+      - item: Javascript (NodeJS)
+      - item: jQuery
+      - item: Git
+      - item: Jekyll
+
+career-profile:
+    title: Career Profile
+    details: |
+      Uddannet Web-integrator med flair for back-end coding, webdesign og responsiv web design. Frivillig crew hos Muskelsvind Fonden. Aktiv medlem af DUI - LEG og VIRKE. 
+    profiles:
+     - item: PHP
+     - item: CSS
+     - item: LESS 
+     - item: SCSS
+     - item: ASP.NET
+     - item: C#
+     - item: MySQL
+     - item: MSSQL
+     - item: Personale ansvarlig
+     - item: Stagehands
+     - item: Frivillighed
+
+education:
+    - degree: Web-integrator
+      university: Viden Djurs - (Grenå Tekniske Skole)
+      time: 2015 - 2016
+      image: 
+      columns: 
+        - title: Udvikling og design af hjemmesider og apps
+          item: HTML, C#, CSS, Responsiv, Mobile, jQuery, Javascript
+        - title: Brug af grafiske værktøjer som for eksempel Photoshop og Illustrator
+          item: Billede behandling, Logo design
+        - title: CMS / E-handel
+          item: 
+
+    - degree: Pædagogiske assistent
+      university: Århus Social- og Sundhedsskole
+      time: 2010 - 2012
+      image: 
+      columns: 
+        - title: Bestået 1 + 2 skole periode + 1 praktik
+    
+    - degree: MCP 70-270
+      university: NetCom
+      time: 2007 - 2007
+      image: 
+      columns: 
+        - title: Microsoft Certificeret Professionel
+          item: Microsoft XP.
+
+    - degree: It & datakommunikation
+      university: Århus Tekniskeskole
+      time: 2003 – 2005
+      image: 
+      columns: 
+        - title: It-support grunduddannelse
+          item: Ikke bestået
+          
+    - degree: HG
+      university: Århus Købmandsskole Vester Allé 
+      time: 2001 - 2002
+      image: 
+      columns: 
+        - title: HG 1
+          item: bestået
+
+    - degree: 9 kl. + 10 kl.
+      university: Taarupgaard ungdomskost skole
+      time: 1999 - 2001
+      image: 
+      columns: 
+        - title: Efterskole
+          item: 
+
+experiences:
+    - company: Abexa Hands
+      role: Hands  
+      time: 2017 - Present 
+      image: 
+      projects:
+        - details: |
+            Stagehands, Trafikvagt på div. Festivaler, messer
+
+        - headline: Et udvalg af jobs jeg har lavet   
+          columns:
+            - title: North Side  
+              item: Trafikvagt
+            - title: Tinderbox  
+              item: Trafikvagt
+            - title: MCH Messecenter Herning 
+              item: Opsætning, nedtagning af messer.
+
+    - company: RelationMedia
+      role: Lager   
+      time: 2017 - 2018 
+      image: 
+      projects:
+        - details: |
+            - Håndteringen af odrer.
+            - Afsendelse & modtagelse af varer.
+
+    - company: CANblau Tapasbar
+      role: Servicemedarbejder
+      time: 2010 - 2014  
+      image: 
+      projects:
+        - details: |
+            Ansvars områder:
+              - Daglig rengøring
+              - Opvasker
+                - Ansættelse/Fyring
+                - Vagtplan
+                - Div.
+              - IT
+                - Kassesystem
+                - Computere
+                - Netværk
+
+    - company: DS Rengøring
+      role: Tilsynsførende
+      time: 2008 - 2009
+      image: 
+      projects:
+        - details: |
+           Arbejder som Tilsynsførende bestående af manuelt rengøring samt tilsyn af ansatte + kunder.
+
+    - company: Temp-Team  
+      role: Vikar   
+      time: 2007 - 2007 
+      image: 
+      projects:
+        - details: |
+            Arbejder som vikar gennem Temp-Team. 
+            
+            Arbejdspladsen: Craletti, Skødstrup.
+
+        - headline: Opgaver  
+          columns:
+            - title: Pakning af odrer 
+              item: 
+            - title: Læsning af lastbiler 
+              item: 
+            - title: Ompakning af paller mm.
+              item: 
+
+    - company: Infocare 
+      role: Desktop Supporter  
+      time: 2007 - 2007 
+      image: 
+      projects:
+        - details: |
+            Arbejde som vikar som Desktop supporter for infocare. Arbejdsplads var Dansk Supermarkede, Administration i Holme, Århus.
+
+        - headline: Opgaver
+          columns:
+            - title: Support af Dansk Supermarkede bruger af It system. 
+              item: 
+            - title: Opsætning af nye desktop mm.
+
+    - company: ISS  
+      role: Service Assistent
+      time: 2006 - 2007
+      image: 
+      projects:
+        - details: |
+            Gjorde Rent forskellige steder i Århus. Hovedsaligt i Silvan Århus.
+
+    - company: Hartmann
+      role: Vikar
+      time: 2005 - 2006 
+      image: 
+      projects:
+        - details: |
+            Arbejdsdreng hos Høgh & Rousting.
+
+    - company: Remos Quality Food    
+      role: Servicemedarbejder   
+      time: 2004 - 2006  
+      image: 
+      projects:
+        - details: |
+            Ansvars områder:
+              - Rengørings ansvarlig
+                - Opvask + rengøring af butik.
+                - Ansættelse/Fyring af medarbejder
+                - Vagtplanlæggning
+              - Webmaster
+                - Holde hjemmesider up-to-date
+
+    - company: Jyllands Posten
+      role: Phoner
+      time: 2005 - 2006
+      image: 
+      projects:
+        - details: |
+            Sad i Calle Center i Århus, og solgte Aviser til erhvervsdrivende i Danmark.
+
+    - company: Dansk Supermarked, Højlagert
+      role: Lager ekspedient    
+      time: 2002 - 2003 
+      image: 
+      projects:
+        - details: |
+            Palletering af varer til butikker under Dansk Supermarked, lettere rengøring.
+
+volunteering:
+    - name: Frivillig crew 
+      time: 2003 - Present
+      organization: Muskelsvindfonden
+      image: 
+      details: |
+        Frivillig crew til Muskelsvindfonden's arrangementer. Primært på Grøn Koncert. 
+        
+        Hvor jeg har arbejdet med/i:
+      columns:
+        - title: scenen opsætning 
+          item:
+        - title: Bar
+          item: 
+        - title: Pant
+          item:
+
+    - name: Frivillig medarbejder
+      time: 1996 - Present
+      organization: DUI-LEG og VIRKE
+      image: 
+      details: |
+        DUI- LEG og VIRKE er en børne/ungdoms & familie organisation. Her har jeg være medlem siden jeg var barn.
+        Jeg har gennem min tid ved DUI fået erfarring med pædagogisk arbejde. Planlægning af ture/lejre, ansvar for børn/unge ...
+
+other:
+    - name: Værnepligt
+      time: 2007
+      organization: Holstebro Kasserne
+      image:
+      details: |
+        Værnepligt
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by Kim Petrivelli Østergaard
