@@ -1,8 +1,7 @@
-# _site
+ _site
 .bundle
 .sass-cache
 *.gem
-# assets
 Gemfile.lock
 node_modules
 yarn-error.log
