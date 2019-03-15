@@ -22,7 +22,7 @@ There are 6 color schemes available:
 
 ## Credits
 
-Based on [sharath Kumar] jekyll-themes (https://github.com/sharu725/online-cv)
+Based on [sharath Kumar](https://github.com/sharu725/online-cv) jekyll online-cv.
 
 Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
 
