@@ -19,12 +19,9 @@
     {% if career-profile.details %}
         <div class="details">{{ career-profile.details | markdownify }}</div><!--//details-->
       {% endif %}
-    <ul type="disc" class="mb-2">
+    <ul type="disc" class="profile-list">
       {%for profile in career-profile.profiles %}
-        {% assign remainder = forloop.index | modulo:2 %}
-          {% if forloop.first == true %}
         <li><p>{{ profile.item }}</p></li>
-          {% endif %}
       {% endfor %}
     </ul>
   </div><!--//item-->
