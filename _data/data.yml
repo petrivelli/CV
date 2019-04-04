@@ -34,7 +34,7 @@ sidebar:
       - item: Frivillighed
       
 
-    skills:
+    IT skills:
       - item: HTML / CSS
       - item: C#
       - item: Shell script (Bash)
@@ -43,11 +43,12 @@ sidebar:
       - item: jQuery
       - item: Git
       - item: Jekyll
+      - 
 
-career-profile:
+Career-profile:
     title: Career Profile
     details: |
-      Uddannet Web-integrator med flair for back-end coding, webdesign og responsiv web design. Kendskab til installering, support, fejlfinding af Windows/Windows server samt Mac. Frivillig crew hos Muskelsvind Fonden. Aktiv medlem af DUI - LEG og VIRKE.
+      Erfarren lagerarbejder med kendskab til modtagelse/afsendels af ordre, truck/stabler kørsels, optimering af lager flow. Frivillig crew hos Muskelsvind Fonden. Aktiv medlem af DUI - LEG og VIRKE.
 
     profiles:
      - item: PHP
@@ -63,7 +64,7 @@ career-profile:
      - item: Frivillighed
      - item: Installering/Support/Fejlfinding af Pc/Mac.
 
-education:
+Education:
     - degree: Web-integrator
       university: Viden Djurs - (Grenå Tekniske Skole)
       time: 2015 - 2016
@@ -141,6 +142,9 @@ experiences:
         - details: |
             - Håndteringen af odrer.
             - Afsendelse & modtagelse af varer.
+            - optimering af lager flow.
+            - Transport bestilling til afhentning af matrialer mm.
+            - Lettere rengøring af lager mm.
 
     - company: CANblau Tapasbar
       role: Servicemedarbejder
