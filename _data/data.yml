@@ -43,21 +43,23 @@ sidebar:
       - item: jQuery
       - item: Git
       - item: Jekyll
-      - 
+      - item: Officepakke (Word, Excel)
 
 career-profile:
     title: Career Profile
     details: |
-      Erfarren lagerarbejder med kendskab til modtagelse/afsendels af ordre, truck/stabler kørsels, optimering af lager flow. Erfarring fra tidliger arbejder med Frivillig crew hos Muskelsvind Fonden. Aktiv medlem af DUI - LEG og VIRKE.
+      Erfarren lagerarbejder med kendskab til modtagelse/afsendels af ordre, truck/stabler kørsels, optimering af lager flow. 
+      Ledelse erfarring fra tidliger arbejder, gør mig i stand til at kunne bestride funktipner som ansættelse, Vagtplanlæggning mm. Frivillig crew hos Muskelsvind Fonden. Aktiv medlem af DUI - LEG og VIRKE.
 
     profiles:
-     - item: PHP
-     - item: CSS
-     - item: LESS 
-     - item: SCSS
-     - item: ASP.NET
-     - item: C#
-     - item: MySQL
+      title: Kompentancer
+     - item: Ansættelse
+     - item: Vagtplanlæggning
+     - item: Truck/Stabler kørsels 
+     - item: Odrer modtagelse/afsendels
+     - item: Transport bestilling
+     - item: Kvalitets kontrol
+     - item: 
      - item: MSSQL
      - item: Personale ansvarlig
      - item: Stagehands
