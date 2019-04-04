@@ -52,18 +52,20 @@ career-profile:
       Ledelse erfarring fra tidliger arbejder, gør mig i stand til at kunne bestride funktipner som ansættelse, Vagtplanlæggning mm. Frivillig crew hos Muskelsvind Fonden. Aktiv medlem af DUI - LEG og VIRKE.
 
     profiles:
-    - item: Ansættelse
-    - item: Vagtplanlæggning
-    - item: Truck/Stabler kørsels 
-    - item: Odrer modtagelse/afsendels
-    - item: Transport bestilling
-    - item: Kvalitets kontrol
-    - item: 
-    - item: MSSQL
-    - item: Personale ansvarlig
-    - item: Stagehands
-    - item: Frivillighed
-    - item: Installering/Support/Fejlfinding af Pc/Mac.
+      columns:
+        - title: Kompetencer
+        - item: Ansættelse
+        - item: Vagtplanlæggning
+        - item: Truck/Stabler kørsels 
+        - item: Odrer modtagelse/afsendels
+        - item: Transport bestilling
+        - item: Kvalitets kontrol
+        - item: 
+        - item: MSSQL
+        - item: Personale ansvarlig
+        - item: Stagehands
+        - item: Frivillighed
+        - item: Installering/Support/Fejlfinding af Pc/Mac.
 
 education:
     - degree: Web-integrator
