@@ -267,4 +267,7 @@ p {
 
 .profile-list{
     column-count: 2;
+    list-style-position: outside;
+    padding: 0;
+    border-left: solid 2px red;
 }
