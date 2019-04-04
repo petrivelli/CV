@@ -20,7 +20,6 @@
         <div class="details">{{ career-profile.details | markdownify }}</div><!--//details-->
       {% endif %}
     <div class="profile-list">
-        <h3 class="career-title">{{ career-profile.profiles.title }}</h3>
       <ul type="disc">
         {%for profile in career-profile.profiles %}
           <li><p>{{ profile.item }}</p></li>
