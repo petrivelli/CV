@@ -34,7 +34,7 @@ sidebar:
       - item: Frivillighed
       
 
-    IT skills:
+    skills:
       - item: HTML / CSS
       - item: C#
       - item: Shell script (Bash)
@@ -45,7 +45,7 @@ sidebar:
       - item: Jekyll
       - 
 
-Career-profile:
+career-profile:
     title: Career Profile
     details: |
       Erfarren lagerarbejder med kendskab til modtagelse/afsendels af ordre, truck/stabler kørsels, optimering af lager flow. Frivillig crew hos Muskelsvind Fonden. Aktiv medlem af DUI - LEG og VIRKE.
@@ -64,7 +64,7 @@ Career-profile:
      - item: Frivillighed
      - item: Installering/Support/Fejlfinding af Pc/Mac.
 
-Education:
+education:
     - degree: Web-integrator
       university: Viden Djurs - (Grenå Tekniske Skole)
       time: 2015 - 2016
