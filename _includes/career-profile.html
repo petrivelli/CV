@@ -19,7 +19,7 @@
     {% if career-profile.details %}
         <div class="details">{{ career-profile.details | markdownify }}</div><!--//details-->
       {% endif %}
-    <ul type="disc" class="profile-list">
+    <ul type="disc">
       {%for profile in career-profile.profiles %}
         <li><p>{{ profile.item }}</p></li>
       {% endfor %}
