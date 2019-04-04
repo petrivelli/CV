@@ -266,8 +266,8 @@ p {
 }
 
 .profile-list{
-    column-count: 2;
-    list-style-position: outside;
-    padding: 0;
-    border-left: solid 2px red;
+    -webkit-column-count: 2;
+            column-count: 2;
+    -webkit-column-rule-style: solid;
+            column-rule-style: solid;
 }
