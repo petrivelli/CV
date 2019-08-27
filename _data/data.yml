@@ -68,16 +68,14 @@ career-profile:
 education:
     - degree: Grundlæggende Vagt kursus
       university: ZBC - (Roskilde)
-    - degree: Vagt
       time: 2019 - 2019
       image: 
-      columns:
-       - title: 
-          item: 
+      columns: 
+        - title: 
+          item:
 
     - degree: Web-integrator
       university: Viden Djurs - (Grenå Tekniske Skole)
-    - degree: Web-integrator
       time: 2015 - 2016
       image: 
       columns: 
