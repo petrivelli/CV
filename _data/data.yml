@@ -48,21 +48,22 @@ sidebar:
 career-profile:
     title: Career Profile
     details: |
-      Erfarren lagerarbejder med kendskab til modtagelse/afsendels af ordre, truck/stabler kørsels, optimering af lager flow. 
-      Ledelse erfarring fra tidliger arbejder, gør mig i stand til at kunne bestride funktipner som ansættelse, Vagtplanlæggning mm. Frivillig crew hos Muskelsvind Fonden. Aktiv medlem af DUI - LEG og VIRKE.
+      Uddannet Web-integrator med flair for back-end coding, webdesign og responsiv web design. Kendskab til installering, support, fejlfinding af Windows/Windows server samt Mac. Frivillig crew hos Muskelsvind Fonden. Aktiv medlem af DUI - LEG og VIRKE.
 
     profiles:
-      - item: Ansættelse
-      - item: Vagtplanlæggning
-      - item: Truck/Stabler kørsels 
-      - item: Odrer modtagelse/afsendels
-      - item: Transport bestilling
-      - item: Kvalitets kontrol
+      - item: PHP
+      - item: CSS
+      - item: LESS
+      - item: SCSS
+      - item: ASP.NET (C#)
+      - item: MYSQL
       - item: MSSQL
+      - item: HTML
       - item: Personale ansvarlig
       - item: Stagehands
       - item: Frivillighed
       - item: Installering/Support/Fejlfinding af Pc/Mac.
+ 
 
 education:
     - degree: Grundlæggende Vagt kursus
