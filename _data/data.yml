@@ -45,27 +45,6 @@ sidebar:
       - item: Jekyll
       - item: Officepakke (Word, Excel)
 
-career-profile:
-    title: Career Profile
-    details: |
-    
-
-    profiles:
-      - item: PHP
-      - item: CSS
-      - item: LESS
-      - item: SCSS
-      - item: ASP.NET (C#)
-      - item: MYSQL
-      - item: MSSQL
-      - item: HTML
-      - item: Wordpress
-      - item: Personale ansvarlig
-      - item: Stagehands
-      - item: Frivillighed
-      - item: Installering/Support/Fejlfinding af Pc/Mac.
- 
-
 education:
     - degree: Grundlæggende Vagt kursus
       university: ZBC - (Roskilde)
