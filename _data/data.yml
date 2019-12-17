@@ -127,6 +127,16 @@ education:
           item: 
 
 experiences:
+     - company: Abexa Vagt
+      role: Vagt  
+      time: 2019 - Present 
+      image: 
+      projects:
+        - details: |
+             - Eventvagt
+             - Butiks- & servicevagt
+             - Sikkerhedsskabende personale på bosteder
+        
     - company: Abexa Hands
       role: Hands  
       time: 2017 - Present 
